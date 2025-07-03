@@ -3,6 +3,16 @@
 CodeCrafter is a lightweight, AI-assisted website/code generator platform that allows users to craft frontend projects by describing what they want in natural language. The system generates step-by-step build instructions, creates project files in a virtual file system, and offers a live code preview experience — all inside the browser!
 
 ---
+## 🧠 Overview
+
+CodeCrafter enables developers to:
+- Enter a simple prompt (e.g., “Build a simple React-based todo app”)
+- Watch as the AI breaks down the task into logical steps
+- View files being created/modified live
+- Edit/view code directly
+- Preview the project inside a browser—all in one interface
+
+---
 
 ## ✨ Features
 
@@ -58,14 +68,32 @@ CodeCrafter is a lightweight, AI-assisted website/code generator platform that a
 ## 📂 Project Structure
 
 ```
-CodeCrafter/
-├── components/         # Reusable UI elements (Editor, Explorer, Tabs)
-├── hooks/              # Custom hooks like useWebContainer
-├── steps/              # parseXml logic to parse AI response
-├── types/              # TypeScript interfaces (Step, FileItem etc.)
-├── backend/            # Express API using Gemini SDK
-├── config/             # API endpoints, constants
-├── pages/Builder.tsx   # Main builder UI
+CODECRAFTER/
+├── Backend/
+│ ├── dist/
+│ ├── node_modules/
+│ ├── src/
+│ │ └── defaults/
+│ │ ├── node.ts
+│ │ ├── react.ts
+│ │ ├── constants.ts
+│ │ ├── index.ts
+│ │ ├── prompt.ts
+│ │ └── stripindents.ts
+│ ├── .env
+│ ├── .env.example
+│ ├── package.json
+│ └── tsconfig.json
+│
+├── frontend/
+│ ├── node_modules/
+│ ├── src/
+│ ├── index.html
+│ ├── tailwind.config.js
+│ ├── vite.config.ts
+│ └── tsconfig.{json, app.json, node.json}
+│
+└── README.md
 ```
 
 ---
@@ -75,7 +103,7 @@ CodeCrafter/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/codecrafter.git
+git clone https://github.com/NamanGarg11/CodeCrafter.git
 cd codecrafter
 ```
 
@@ -114,6 +142,7 @@ npm run dev
 ---
 
 ## 📸 UI Preview
+![image](https://github.com/user-attachments/assets/e37ba62e-ba05-449b-a32d-5c383f0fa8b9)
 
 | Build Steps UI | File Explorer | Live Preview |
 |----------------|---------------|--------------|
@@ -142,9 +171,10 @@ MIT License. Free to use, fork, and modify.
 
 ---
 
-## 🔗 Related Projects
+📎 Related Projects
 
-- [StackBlitz WebContainers](https://webcontainers.io/)
+-  Boult.new — Generate beautiful portfolio sites with AI in seconds.
+-  StackBlitz WebContainers — Server-side runtime inside browser.
 - [Google Generative AI SDK](https://github.com/google/generative-ai-js)
 
 ---
@@ -163,3 +193,6 @@ Special thanks to:
 > “Another day of exploring the world of AI meets frontend development. I built **CodeCrafter** as a minimal, yet powerful tool that transforms your thoughts into interactive web applications — all in your browser.”
 
 ---
+📜 License
+
+MIT License © 2025 [Naman Garg]
