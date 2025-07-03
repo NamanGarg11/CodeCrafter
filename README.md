@@ -142,7 +142,8 @@ npm run dev
 ---
 
 ## 📸 UI Preview
-![image](https://github.com/user-attachments/assets/e37ba62e-ba05-449b-a32d-5c383f0fa8b9)
+![image](https://github.com/user-attachments/assets/c3c66bcb-61c5-4590-a402-d17cee90b1cc)
+
 
 | Build Steps UI | File Explorer | Live Preview |
 |----------------|---------------|--------------|
@@ -162,12 +163,6 @@ npm run dev
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📃 License
-
-MIT License. Free to use, fork, and modify.
 
 ---
 
